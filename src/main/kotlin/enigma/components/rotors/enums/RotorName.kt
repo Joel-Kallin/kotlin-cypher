@@ -1,0 +1,10 @@
+package enigma.components.rotors.enums
+
+enum class RotorName(val permutation: String) {
+    I("EKMFLGDQVZNTOWYHXUSPAIBRCJ"),
+    II("AJDKSIRUXBLHWTMCQGZNPYFVOE"),
+    III("BDFHJLCPRTXVZNYEIWGAKMUSQO"),
+    IV("ESOVPZJAYQUIRHXLNFTGKDCMWB"),
+    V("VZBRGITYUPSDNHLXAWMJQOFECK");
+
+}
