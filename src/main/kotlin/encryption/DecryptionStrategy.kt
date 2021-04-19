@@ -1,4 +1,4 @@
-package encryption.model
+package encryption
 
 import enigma.EnigmaFactory
 import rsa.RsaFactory

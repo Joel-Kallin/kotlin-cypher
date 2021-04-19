@@ -1,7 +1,7 @@
 package rsa
 
-import encryption.model.Decryptor
-import encryption.model.Encryptor
+import encryption.Decryptor
+import encryption.Encryptor
 
 class Rsa: Encryptor, Decryptor {
     override fun decrypt(cipherText: String): String {

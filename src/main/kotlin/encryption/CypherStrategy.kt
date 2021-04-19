@@ -1,4 +1,4 @@
-package encryption.model
+package encryption
 
 interface CypherStrategy {
     fun cipher(text: String): String

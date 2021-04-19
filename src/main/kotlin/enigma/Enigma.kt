@@ -1,7 +1,7 @@
 package enigma
 
-import encryption.model.Decryptor
-import encryption.model.Encryptor
+import encryption.Decryptor
+import encryption.Encryptor
 import enigma.components.plugboard.Plugboard
 import enigma.components.rotors.Reflector
 import enigma.components.rotors.Rotor

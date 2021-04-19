@@ -1,6 +1,6 @@
-import encryption.model.CypherStrategy
-import encryption.model.DecryptionStrategy
-import encryption.model.EncryptionStrategy
+import encryption.CypherStrategy
+import encryption.DecryptionStrategy
+import encryption.EncryptionStrategy
 import java.io.File
 
 fun main(args: Array<String>) {
