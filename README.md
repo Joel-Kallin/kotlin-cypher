@@ -10,3 +10,7 @@ or
 ```bash
 -f text.txt
 ```
+
+### TODO
+* Add option to customize enigma key from argument
+* Implement RSA
