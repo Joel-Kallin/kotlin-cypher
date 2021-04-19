@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="enigma.components.plugboard.PlugboardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-19T18:11:54" hostname="Joels-MBP-16.lan" time="0.003">
-  <properties/>
-  <testcase name="constructor_validates_permutation()" classname="enigma.components.plugboard.PlugboardTest" time="0.002"/>
-  <testcase name="permutation_of_permutation_should_be_id()" classname="enigma.components.plugboard.PlugboardTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
