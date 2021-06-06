@@ -20,11 +20,10 @@ class Enigma(rotorMap: Map<Int, Rotor>, reflector: Reflector, plugboard: Plugboa
         return permute(cleanInput(plainText))
     }
 
-    private fun cleanInput(plainText: String) =
-        plainText.toUpperCase()
-            .replace("\\s+".toRegex(), "")
-            .replace(",", "")
-            .replace(".", "")
+    private fun cleanInput(plainText: String): String {
+        val re = Regex("[^A-Za-z]")
+        return re.replace(plainText, "").toUpperCase()
+    }
 
     private fun permute(text: String): String {
         return text.map { plugboard.permute(rotors.permute(plugboard.permute(it)))}.joinToString(separator = "")
